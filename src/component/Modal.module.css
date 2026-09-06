@@ -1,0 +1,28 @@
+
+
+.backdrop{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.539);
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* pointer-events: none; */
+}
+
+.modal{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
